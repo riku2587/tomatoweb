@@ -428,8 +428,7 @@ p {
   justify-content: center;
   /*background-color: antiquewhite;*/
 }
-.maincontents2 img,
-.maincontents3 img {
+.fanchechaodang img, .chiriconcan img {
   width: 40%;
   height: auto;
   display: block;
