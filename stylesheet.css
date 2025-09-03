@@ -884,6 +884,11 @@ border: 1px solid rgba(225,225,225,0.6);
   text-align: center;
 }
 
+.centermikuji{
+  display: flex;
+  justify-content: center;
+}
+
 /* フッター */
 footer{
   height: 120px;
