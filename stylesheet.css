@@ -102,10 +102,6 @@ p {
   margin: 0;
 }
 
-img {
-  width: 100%;
-}
-
 
 .tomatoOfficial_header{
   position: fixed;
@@ -373,7 +369,7 @@ img {
   /*background-color: antiquewhite;*/
   margin: 0;
 }
-.maincontents1 {
+.marugeri-ta {
   width: 100%;
   min-height: 450px;
   /*background-color: yellow;*/
@@ -383,7 +379,7 @@ img {
   /*background-color: antiquewhite;*/
   margin: 0px;
 }
-.maincontents1 img {
+.marugeri-ta img {
   width: 40%;
   height: auto;
   display: block;
@@ -432,8 +428,8 @@ img {
   justify-content: center;
   /*background-color: antiquewhite;*/
 }
-.maincontents2 img,
-.maincontents3 img {
+.fanchechaodang img,
+.chiriconcan img {
   width: 40%;
   height: auto;
   display: block;
@@ -454,7 +450,7 @@ img {
   margin-bottom: 20px;
   margin-left: 60px;
 }
-.maincontents1 p, .maincontents2 p, .maincontents3 p {
+.marugeri-ta p, .fanchechaodang p, .chiriconcan p {
   border: 2px solid;
   padding: 15px;
   max-width: 600px;
