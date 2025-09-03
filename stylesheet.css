@@ -1,82 +1,4 @@
-/* PCサイズ（横並び） */
-@media (min-width: 930px) {
-  .about-tomato {
-    position: relative;
-    width: 100%;
-    height: 1000px;
-  }
 
-  .nutrient, .history, .how-to-eat {
-    width: auto;
-    max-width: 400px;
-  }
-
-
-  .tomato-illustration {
-    position: absolute;
-    width: 1000px;
-    height: 700px;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%,-120%);
-  }
-
-
-  .nutrient{
-    position: absolute;
-    top: 20%;
-    left: 60px;
-    background-color: antiquewhite;
-    border-radius: 20px;
-    justify-content: center;
-  }
-
-  .left-title{
-    color: aquamarine;
-    background-color: green;
-    width: 120px;
-    height: 50px;
-    font-size: 30px;
-    text-align: center;
-    border-radius: 5px;
-  }
-
-  .history{
-    position: absolute;
-    top: 10%;
-    right: 50px;
-    background-color: antiquewhite;
-    border-radius: 20px;
-  }
-
-  .right-title{
-    color: aquamarine;
-    background-color: green;
-    width: 120px;
-    height: 50px;
-    font-size: 30px;
-    text-align: center;
-    border-radius: 5px;
-  }
-
-  .how-to-eat{
-    position: absolute;
-    top: 60%;
-    right: 30px;
-    background-color: antiquewhite;
-    border-radius: 20px;
-  }
-
-  .bottom-title{
-    color: aquamarine;
-    background-color: green;
-    width: 200px;
-    height: 50px;
-    font-size: 30px;
-    text-align: center;
-    border-radius: 5px;
-  }
-}
 
 
 /* ヘッダー */
@@ -235,6 +157,91 @@ p {
 
 
 /* トマトの基礎知識 */
+/* PCサイズ（横並び） */
+@media (min-width: 930px) {
+  .about-tomato {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+  }
+
+  .nutrient, .history, .how-to-eat {
+    width: auto;
+    max-width: 400px;
+  }
+
+
+  .tomato-illustration {
+    position: absolute;
+    width: 1000px;
+    height: 700px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-120%);
+  }
+
+
+  .nutrient{
+    position: absolute;
+    top: 20%;
+    left: 60px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    justify-content: center;
+  }
+
+  .left-title{
+    color: aquamarine;
+    background-color: green;
+    width: 120px;
+    /* height: 50px; */
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-bottom: 0px;
+  }
+
+  .history{
+    position: absolute;
+    top: 10%;
+    right: 50px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+  }
+
+  .right-title{
+    color: aquamarine;
+    background-color: green;
+    width: 120px;
+    /* height: 50px; */
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+    padding-bottom: 10px;
+  }
+
+  .how-to-eat{
+    position: absolute;
+    top: 60%;
+    right: 30px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+  }
+
+  .bottom-title{
+    color: aquamarine;
+    background-color: green;
+    width: 200px;
+    /* height: 50px; */
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+    
+    padding-bottom: 0px;
+  }
+}
+
 .about-tomato{
   display: flex;
   flex-direction: column;
@@ -243,6 +250,10 @@ p {
   padding: 40px 20px;
   max-width: 1000px;
   margin: 105px auto;
+  font-family: 'Noto Sans JP', sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 1.6rem;
 }
 .tomato-illustration{
   max-width: 400px;
@@ -261,13 +272,14 @@ p {
   text-align: center;
   padding: 10px;
   border-radius: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }
 .first-nutrient{
   margin-top: 10px;
   color: orange;
   margin-left: 10px;
   margin-top: 10px;
+  margin-bottom: 0px;
 }
 .first-detail{
   margin-left: 20px;
@@ -276,6 +288,7 @@ p {
   margin-top: 10px;
   color: orange;
   margin-left: 10px;
+  margin-bottom: 0px;
 }
 .second-detail{
   margin-left: 20px;
@@ -284,6 +297,7 @@ p {
   margin-top: 10px;
   color: orange;
   margin-left: 10px;
+  margin-bottom: 0px;
 }
 .third-detail{
   margin-left: 20px;
@@ -292,6 +306,7 @@ p {
   margin-top: 10px;
   color: orange;
   margin-left: 10px;
+  margin-bottom: 0px;
 }
 .forth-detail{
   margin-left: 20px;
@@ -464,6 +479,10 @@ p {
 
 
 /* トマトクイズ */
+  #quiz h1{
+  text-align: center;
+  font-size: 30px;
+}
   /* 外枠 */
   .box{
     width: 500px;
@@ -471,7 +490,7 @@ p {
     text-align: center;
     padding: 10px;
     color: #FFFFFF;
-    border-radius: 10px;
+    border-radius: 50px;
     padding-bottom: 50px;
   }
 
@@ -802,9 +821,21 @@ border: 1px solid rgba(225,225,225,0.6);
   text-decoration: none;
 }
 
+#quiz h2{
+  font-size: 23px;
+}
+
+#quiz #explaination{
+  font-size: 20px;
+}
+
 
 
 /* トマト御籤 */
+#mikuji h1{
+  text-align: center;
+  font-size: 30px;
+}
 
 #popup {
   display: none; /* label でコントロールするので input は非表示に */
@@ -888,6 +919,23 @@ border: 1px solid rgba(225,225,225,0.6);
   justify-content: center;
 }
 
+#mikuji h2{
+  font-size: 25px;
+}
+
+#mikuji a{
+  font-size: 20px;
+}
+
+#mikuji #textArea{
+  font-size: 20px;
+}
+
+#mikuji p{
+  font-size: 20px;  
+  text-align: center;
+}
+
 /* フッター */
 footer{
   height: 120px;
@@ -902,3 +950,4 @@ footer{
   font-size: 14px;
   font-weight: 400;
 }
+
