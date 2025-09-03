@@ -864,6 +864,10 @@ border: 1px solid rgba(225,225,225,0.6);
   right: 0;
 }
 
+.tomatomikuji{
+  width: 300px;
+}
+
 .img { /* 画像 */
   display: none; /* 標準が非表示 */
   position: relative;
