@@ -369,7 +369,7 @@ p {
   /*background-color: antiquewhite;*/
   margin: 0;
 }
-.marugeri-ta {
+.maincontents1 {
   width: 100%;
   min-height: 450px;
   /*background-color: yellow;*/
@@ -379,7 +379,7 @@ p {
   /*background-color: antiquewhite;*/
   margin: 0px;
 }
-.marugeri-ta img {
+.maincontents1 img {
   width: 40%;
   height: auto;
   display: block;
@@ -428,8 +428,8 @@ p {
   justify-content: center;
   /*background-color: antiquewhite;*/
 }
-.fanchechaodang img,
-.chiriconcan img {
+.maincontents2 img,
+.maincontents3 img {
   width: 40%;
   height: auto;
   display: block;
@@ -450,7 +450,7 @@ p {
   margin-bottom: 20px;
   margin-left: 60px;
 }
-.marugeri-ta p, .fanchechaodang p, .chiriconcan p {
+.maincontents1 p, .maincontents2 p, .maincontents3 p {
   border: 2px solid;
   padding: 15px;
   max-width: 600px;
@@ -763,7 +763,7 @@ border: 1px solid rgba(225,225,225,0.6);
 
 
 .box1 img{
- height: 350px;
+ height:350px;
  width: 350px;
  border-radius: 50%;
 }
