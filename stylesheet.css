@@ -111,7 +111,7 @@ img {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgba(255, 0, 0, 0.03); 
+  background-color: rgba(255, 158, 158, 0.5); 
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   margin: 0 auto;
   z-index: 1000;
@@ -125,11 +125,11 @@ img {
 }
  @media (max-width: 1228px) {
   .headerWidth {
-    flex-direction: column; /* ← 縦並び */
-    align-items: flex-start; /* 左寄せに */
-    gap: 2px; /* 縦の余白に調整 */
+    flex-direction: column; 
+    align-items: flex-start; 
+    gap: 2px; 
     margin: 0 auto;
-    height: auto; /* 高さは自動に */
+    height: auto; 
   }
 } 
 .linkButton{
@@ -167,7 +167,7 @@ img {
 }
 @media (max-width: 1228px) {
   .tomato_pageButton {
-    align-items: flex-start; /* 左寄せに */
+    align-items: flex-start; 
     margin: 0 auto;
   }
 }
@@ -187,31 +187,31 @@ img {
   width: 0; 
   height: 3px; 
   background-color: black; 
-  transition: width 0.3s ease; /* アニメーション */
+  transition: width 0.3s ease; 
 }
 .tomato_pageButton a:hover {
-  color: rgb(255, 0, 0); /* ホバー時に濃い赤に */
+  color: rgb(255, 0, 0);
 }
 .tomato_pageButton a:hover::after {
   width: 100%;
 }
 
-/* タブレット以下 */
+
 @media screen and (max-width: 1228px) {
   .tomato_pageButton {
-    gap: 20px;            /* 余白を少なく */
-    font-size: 1.8rem;    /* 少し小さく */
+    gap: 20px;            
+    font-size: 1.8rem;    
   }
   .linkButton {
-    width: 70px;          /* ロゴ縮小 */
+    width: 70px;        
   }
 }
 
 @media (max-width: 868px) {
   .tomato_pageButton {
-    display: none; /* デフォで隠す */
+    display: none; 
     position: absolute;
-    top: 60px; /* headerの下 */
+    top: 60px; 
     left: 0;
     right: 0;
     background: #c00;
@@ -246,7 +246,7 @@ img {
   gap: 40px;
   padding: 40px 20px;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 105px auto;
 }
 .tomato-illustration{
   max-width: 400px;
