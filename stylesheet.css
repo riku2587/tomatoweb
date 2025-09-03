@@ -479,6 +479,10 @@ p {
 
 
 /* トマトクイズ */
+  #quiz h1{
+  text-align: center;
+  font-size: 30px;
+}
   /* 外枠 */
   .box{
     width: 500px;
@@ -486,7 +490,7 @@ p {
     text-align: center;
     padding: 10px;
     color: #FFFFFF;
-    border-radius: 10px;
+    border-radius: 50px;
     padding-bottom: 50px;
   }
 
@@ -828,6 +832,10 @@ border: 1px solid rgba(225,225,225,0.6);
 
 
 /* トマト御籤 */
+#mikuji h1{
+  text-align: center;
+  font-size: 30px;
+}
 
 #popup {
   display: none; /* label でコントロールするので input は非表示に */
@@ -923,6 +931,11 @@ border: 1px solid rgba(225,225,225,0.6);
   font-size: 20px;
 }
 
+#mikuji p{
+  font-size: 20px;  
+  text-align: center;
+}
+
 /* フッター */
 footer{
   height: 120px;
@@ -937,3 +950,4 @@ footer{
   font-size: 14px;
   font-weight: 400;
 }
+
