@@ -402,7 +402,7 @@ p {
 }
 .maincontents1 p {
   background-color: rgba(255, 255, 255, 0);
-  border: 2px solid;
+  border-radius: 2px;
   padding: 15px;     
   max-width: 600px; 
   margin: 20px auto; 
@@ -410,14 +410,14 @@ p {
   font-size: 20px;
   margin-left: 20px;
   margin-right: 20px;
-  background-color: aqua;
+  background-color: antiquewhite;
 }
 .ryo-ri2, .ryo-ri3 {
   font-family: "Kaisei Harunoumi";
   font-size: 40px;
   margin-top: 30px;
   margin-bottom: 0;
-  background-color: antiquewhite;
+  /*background-color: antiquewhite;*/
 }
 .fanchechaodang, .chiriconcan {
   width: 100%;
@@ -450,8 +450,8 @@ p {
   margin-bottom: 20px;
   margin-left: 60px;
 }
-.maincontents1 p, .maincontents2 p, .maincontents3 p {
-  border: 2px solid;
+.marugeri-ta p, .fanchechaodang p, .chiriconcan p {
+  border-radius: 2px;
   padding: 15px;
   max-width: 600px;
   margin: 20px auto;
@@ -459,7 +459,7 @@ p {
   font-size: 20px;
   margin-left: 20px;
   margin-right: 20px;
-  background-color: aqua;
+  background-color: antiquewhite;
 }
 
 
@@ -882,6 +882,11 @@ border: 1px solid rgba(225,225,225,0.6);
   /* max-width: 540px; */
   width: 100%;
   text-align: center;
+}
+
+.centermikuji{
+  display: flex;
+  justify-content: center;
 }
 
 /* フッター */
