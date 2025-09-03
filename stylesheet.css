@@ -86,13 +86,13 @@ html {
   font-family: 'Noto Sans', serif;
 }
 
-body * {
+/* body * {
   font-family: 'Noto Sans JP', sans-serif;
   box-sizing: border-box;
   text-decoration: none;
   font-size: 1.6rem;
   margin: 0;
-}
+} */
 
 body {
   margin: 0;
