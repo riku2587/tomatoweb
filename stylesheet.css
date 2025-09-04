@@ -5,7 +5,7 @@
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
-  font-family: 'Noto Sans', serif;
+ 
 }
 
 /* body * {
@@ -686,23 +686,14 @@ p {
   color:white;
  
  }
- .main_logo1 h1{
+ .main_logo1 h2{
   margin-bottom: 100px;
   position: relative;
  }
- .main_logo1 h1::after {
-  position: absolute;
-  content: "";
-  top: 50%;
-  width: 30px;
-  height: 1px;
-  background-color: white;
-  margin-top: 50px;
-  margin-left: -65px;
-}
- .main_logo1 h2{
+
+ .main_logo1 h1{
   margin-bottom: 140px;
-  font-size: 40px;
+
  }
 
 .main_logo2{
@@ -715,24 +706,14 @@ p {
   color:white;
  }
 
- .main_logo2 h1{
+ .main_logo2 h2{
   margin-bottom: 100px;
   position: relative;
  }
  
- .main_logo2 h1::after {
-  position: absolute;
-  content: "";
-  top: 50%;
-  width: 30px;
-  height: 1px;
-  background-color: white;
-  margin-top: 50px;
-  margin-left: -65px;
-}
 
 
-.main_logo2 h2{
+.main_logo2 h1{
   margin-bottom: 140px;
   font-size: 40px;
  }
@@ -747,22 +728,12 @@ p {
   color:white;
  }
 
- .main_logo3 h1{
+ .main_logo3 h2{
   margin-bottom: 100px;
   position: relative;
  }
- 
- .main_logo3 h1::after {
-  position: absolute;
-  content: "";
-  top: 50%;
-  width: 30px;
-  height: 1px;
-  background-color: white;
-  margin-top: 50px;
-  margin-left: -65px;
-}
- .main_logo3 h2{
+
+ .main_logo3 h1{
   margin-bottom: 140px;
   font-size: 40px;
  }
