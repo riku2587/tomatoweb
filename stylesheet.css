@@ -359,7 +359,7 @@ p {
   font-weight: 400;
   font-style: normal;
 }
-.container {
+.worldtomato_container {
   display: flex;          /* 横並びにする */
   justify-content: space-between; /* 均等に配置 */
   gap: 20px; 
