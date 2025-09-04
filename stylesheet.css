@@ -268,6 +268,11 @@ p {
   
 
 /* トマトの基礎知識 */
+
+.about-tomato-title{
+  padding-top: 100px;
+  margin-bottom: -80px;
+}
 /* PCサイズ（横並び） */
 
 @media (min-width: 930px) {
@@ -360,8 +365,8 @@ p {
   align-items: center;
   gap: 40px;
   padding: 40px 20px;
-  max-width: 1000px;
-  margin: 105px auto;
+  /* max-width: 1000px; */
+  /* margin: 105px auto; */
   font-family: 'Noto Sans JP', sans-serif;
   box-sizing: border-box;
   text-decoration: none;
@@ -966,6 +971,9 @@ border: 1px solid rgba(225,225,225,0.6);
   font-size: 20px;
 }
 
+#quiz {
+  padding-top: 50px;
+}
 
 
 /* トマト御籤 */
