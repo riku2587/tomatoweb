@@ -1,5 +1,15 @@
+h1{
+  font-size: 50px;
+  text-align: center;
+}
 
+h2{
+  font-size: 40px;
+}
 
+p{
+  font-size: 20px;
+}
 
 /* ヘッダー */
 html {
@@ -363,6 +373,7 @@ p {
   box-sizing: border-box;
   text-decoration: none;
   font-size: 1.6rem;
+  margin-bottom: 200px;
 }
 .tomato-illustration{
   max-width: 400px;
@@ -637,7 +648,7 @@ p {
 /* トマトクイズ */
   #quiz h1{
   text-align: center;
-  font-size: 30px;
+  /* font-size: 30px; */
 }
   /* 外枠 */
   .box{
@@ -978,7 +989,7 @@ border: 1px solid rgba(225,225,225,0.6);
 }
 
 #quiz h2{
-  font-size: 23px;
+  /* font-size: 23px; */
 }
 
 #quiz #explaination{
@@ -990,7 +1001,7 @@ border: 1px solid rgba(225,225,225,0.6);
 /* トマト御籤 */
 #mikuji h1{
   text-align: center;
-  font-size: 30px;
+  /* font-size: 30px; */
 }
 
 #popup {
@@ -1076,7 +1087,7 @@ border: 1px solid rgba(225,225,225,0.6);
 }
 
 #mikuji h2{
-  font-size: 25px;
+  /* font-size: 25px; */
 }
 
 #mikuji a{
@@ -1088,7 +1099,7 @@ border: 1px solid rgba(225,225,225,0.6);
 }
 
 #mikuji p{
-  font-size: 20px;  
+  /* font-size: 20px;   */
   text-align: center;
 }
 
