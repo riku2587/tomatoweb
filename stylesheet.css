@@ -290,11 +290,12 @@ p {
 
   .tomato-illustration {
     position: absolute;
-    width: 1000px;
-    height: 700px;
+    max-width: 1000px;
+    height: auto;
     top: 100%;
     left: 50%;
     transform: translate(-50%,-120%);
+    border-radius: 10px;
   }
 
 
@@ -316,7 +317,6 @@ p {
     text-align: center;
     border-radius: 5px;
     padding-bottom: 10px;
-    padding-bottom: 0px;
   }
 
   .history{
@@ -372,10 +372,6 @@ p {
   text-decoration: none;
   font-size: 1.6rem;
   margin-bottom: 200px;
-}
-.tomato-illustration{
-  max-width: 400px;
-  border-radius: 10px;
 }
 .nutrient{
   background-color: antiquewhite;
