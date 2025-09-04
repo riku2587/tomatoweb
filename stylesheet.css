@@ -1156,8 +1156,9 @@ border: 1px solid rgba(225,225,225,0.6);
 
 /* フッター */
 footer{
-  height: 120px;
+  height: 200px;
   background-color:rgb(184, 47, 47); 
+  align-items: center;
 }
 .footer p{
   display: flex;
@@ -1168,4 +1169,34 @@ footer{
   font-size: 14px;
   font-weight: 400;
 }
-
+.footerLink{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.insta{
+  width: 30px;
+  height: auto;
+}
+.youtube{
+   width: 30px;
+  height: auto;
+}
+.okita{
+   width: 35px;
+  height: auto;
+  font-size: 2px;
+}
+.SuperThanks{
+  padding:0 auto;
+  align-items: center;
+  text-align: center;
+  font-size: 2px;
+  color: #FFF;
+  text-decoration: none;
+  margin-left: 40px;
+}
+.final{
+  display: flex;
+  justify-content: center;
+}
