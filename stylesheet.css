@@ -144,7 +144,7 @@ img {
   }
 }
 
-.hamburger{
+/* .hamburger{
   display: none;
   align-items: right;
   width: 60px;
@@ -153,7 +153,54 @@ img {
   background: rgba(255, 0, 0, 0.03);
   color: #c00;
   border: none;
+  z-index: 1006;
+  cursor: pointer;
+} */
+ .menu-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: none;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1006;
+    background-color: rgba(255, 0, 0, 0.03);
 }
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    position: absolute;
+}
+.menu-btn span:before {
+    bottom: 8px;
+}
+.menu-btn span:after {
+    top: 8px;
+}
+#menu-btn-check:checked ~ .menu-btn span {
+    background-color: rgba(255, 255, 255, 0);/*メニューオープン時は真ん中の線を透明にする*/
+}
+#menu-btn-check:checked ~ .menu-btn span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+}
+#menu-btn-check:checked ~ .menu-btn span::after {
+    top: 0;
+    transform: rotate(-45deg);
+}
+#menu-btn-check {
+    display: none;
+}
+
+
 
 .tomato_pageButton {
   display: flex;
@@ -196,6 +243,67 @@ img {
   width: 100%;
 }
 
+.hamburger_pageButton{
+  /* display: none;
+  position: fixed;
+  flex-direction: column;
+  row-gap: 40px;
+  background-color: rgba(255, 255, 255);
+  width: 40%;
+  height: 100%;
+  margin-left: 60%;
+  padding-top: 35px;
+  padding-left: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  font-size: auto;
+  z-index: 1005; */
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 100%;/*leftの値を変更してメニューを画面外へ*/
+    z-index: 1005;
+    background-color: #3584bb;
+    transition: all 0.5s;/*アニメーション設定*/
+}
+#menu-btn-check:checked ~ .hamburger_pageButton {
+    left: 0;/*メニューを画面内へ*/
+}
+
+.hamburgerBlack{
+  display: none;
+  position: fixed;
+  width:100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1004;
+} 
+
+/* .hamburger_pageButton a{
+  position: relative;
+  color: rgba(255, 0, 0, 0.5);
+  text-decoration: none;
+  padding-bottom: 8px;
+  transition: color 0.3s ease;
+  width: fit-content;
+}
+.hamburger_pageButton a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0; 
+  height: 2px; 
+  background-color: rgba(0, 0, 0, 0.6); 
+  transition: width 0.3s ease; 
+}
+.hamburger_pageButton a:hover {
+  color: rgb(255, 0, 0);
+}
+.hamburger_pageButton a:hover::after {
+  width: 100%;
+} */
+
 
 @media screen and (max-width: 1228px) {
   .tomato_pageButton {
@@ -226,17 +334,18 @@ img {
   .hamburger {
     display: block; /* ハンバーガー表示 */
   }
-
-  /* 開いたとき用 */
-    .tomato_pageButton .active {
+  
+  .hamburgerBlack{
     display: block;
   }
-  /* ハンバーガーにカーソルを合わせたら表示 */
-  .hamburger:hover + .tomato_pageButton {
+  .menu-btn{
     display: flex;
   }
 }
-
+ 
+  
+  /* ハンバーガーにカーソルを合わせたら表示 */
+  
 
 /* トマトの基礎知識 */
 .about-tomato{

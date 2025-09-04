@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
 </head>
 <body>
     <!-- ヘッダー -->
@@ -20,8 +22,9 @@
             <div class="headerWidth"> 
                 <div class=hamburgerRight>
                     <img src="./ChatGPT Image 2025年9月3日 22_13_07.png" alt="tomatoImg" class="linkButton">
-                    <button class="hamburger" aria-label="メニューを開閉">☰</button>
-                </div>   
+                    <input type="checkbox" id="menu-btn-check">
+                    <label for="menu-btn-check" class="menu-btn"><span></span></label>
+                </div> 
                 <div class="tomato_pageButton">
                     <a href="">トマトとは</a>
                     <a href="">世界のトマト</a>
@@ -29,10 +32,19 @@
                     <a href="">おすすめレシピ</a>
                     <a href="">トマトみくじ</a>
                 </div>
+                <div class="hamburger_pageButton">
+                    <a href="">トマトとは</a>
+                    <a href="">世界のトマト</a>
+                    <a href="">トマトクイズ</a>
+                    <a href="">おすすめレシピ</a>
+                    <a href="">トマトみくじ</a>
+                </div>
+
             </div>
+            <div class="hamburgerBlack"></div>
         </div>
     </header>
-
+    
     <!-- トマトの基礎知識 -->
     <div class="about-tomato">
         <img src="https://media.delishkitchen.tv/article/643/8vxehktn91.jpeg?version=1625457195" class="tomato-illustration" />
