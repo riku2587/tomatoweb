@@ -294,7 +294,6 @@ p {
   
 
 /* トマトの基礎知識 */
-
 .about-tomato-title{
   padding-top: 100px;
   /* margin-bottom: -80px; */
@@ -316,7 +315,7 @@ p {
 
   .tomato-illustration {
     position: absolute;
-    max-width: 1000px;
+    max-width: 100%;
     height: auto;
     top: 100%;
     left: 50%;
