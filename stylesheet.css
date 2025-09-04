@@ -481,7 +481,7 @@ p {
 }
 .worldtomato_container {
   display: flex;          /* 横並びにする */
-  justify-content: space-around; /* 均等に配置 */
+  justify-content: space-between; /* 均等に配置 */
   gap: 20px; 
   align-items: flex-start;
   width: 95%;
