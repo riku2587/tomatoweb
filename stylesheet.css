@@ -140,20 +140,8 @@ p {
     flex-direction: column;
     gap: 15px;
   }
-
-  .hamburger {
-    display: block; /* ハンバーガー表示 */
-  }
-
-  /* 開いたとき用 */
-    .tomato_pageButton .active {
-    display: block;
-  }
-  /* ハンバーガーにカーソルを合わせたら表示 */
-  .hamburger:hover + .tomato_pageButton {
-    display: flex;
-  }
 }
+
 
 
 /* トマトの基礎知識 */
