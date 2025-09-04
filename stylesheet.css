@@ -460,6 +460,53 @@ p {
   margin-right: 20px;
   background-color: antiquewhite;
 }
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;   /* 横並び → 縦並び */
+    text-align: center;       /* 中央寄せ */
+  }
+  .left {
+    font-size: 30px;          /* 文字を少し小さく */
+    margin-bottom: 10px;
+  }
+  .right {
+    font-size: 20px;
+  }
+
+  .marugeri-ta, .fanchechaodang, .chiriconcan {
+    flex-direction: column;   /* 画像とテキストを縦に */
+    align-items: center;
+  }
+
+  .marugeri-ta img,
+  .fanchechaodang img,
+  .chiriconcan img {
+    width: 80%;               /* 横幅を縮小して収める */
+    margin: 10px auto;
+  }
+
+  .text-and-subimage {
+    align-items: center;      /* 中央寄せ */
+    max-width: 90%;           /* 横幅を広めに */
+  }
+
+  .text-and-subimage img {
+    width: 70%;               /* サブ画像も縮小 */
+    margin: 10px auto;
+  }
+
+  .marugeri-ta p,
+  .fanchechaodang p,
+  .chiriconcan p {
+    font-size: 16px;          /* 本文フォントサイズ調整 */
+    margin: 10px auto;
+  }
+
+  .ryo-ri1, .ryo-ri2, .ryo-ri3 {
+    font-size: 28px;          /* 見出し小さく */
+    text-align: center;
+  }
+}
 
 
 
