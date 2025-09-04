@@ -484,7 +484,7 @@ p {
   justify-content: space-between; /* 均等に配置 */
   gap: 20px; 
   align-items: flex-start;
-  width: 95%;
+  width: 90%;
   /* height: 120px; */
   font-family: "Kaisei Harunoumi", serif;
   /*background-color:antiquewhite;*/
