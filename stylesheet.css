@@ -1,3 +1,4 @@
+
 h1{
   font-size: 50px;
   text-align: center;
@@ -10,6 +11,31 @@ h2{
 p{
   font-size: 20px;
 }
+
+.home-background{
+  background-image: url(./tomatosaibai.jpg);
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  text-align: left;
+  color: white;
+  margin: auto;
+  @media screen and (max-width: 1150px) {
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./tomatosaibai2.jpg);
+  text-align: left;
+  height: 1000px;
+}
+}
+.home-background h1{
+  text-align: left;
+  
+}
+
+
 
 /* ヘッダー */
 html {
@@ -645,6 +671,7 @@ p {
 /* トマトクイズ */
   #quiz h1{
   text-align: center;
+  margin-top: 0;
   /* font-size: 30px; */
 }
   /* 外枠 */
