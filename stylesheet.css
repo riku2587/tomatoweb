@@ -647,7 +647,7 @@ p {
 /* トマトクイズ */
   #quiz h1{
   text-align: center;
-  font-size: 30px;
+  /* font-size: 30px; */
 }
   /* 外枠 */
   .box{
