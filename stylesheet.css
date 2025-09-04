@@ -943,6 +943,11 @@ border: 1px solid rgba(225,225,225,0.6);
   margin-top: -150px;
  
 }
+.cent{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
 .boxs{
   display: flex;
