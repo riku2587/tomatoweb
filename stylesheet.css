@@ -1,5 +1,15 @@
+h1{
+  font-size: 50px;
+  text-align: center;
+}
 
+h2{
+  font-size: 40px;
+}
 
+p{
+  font-size: 20px;
+}
 
 /* ヘッダー */
 html {
@@ -266,6 +276,7 @@ p {
 
 /* トマトの基礎知識 */
 /* PCサイズ（横並び） */
+
 @media (min-width: 930px) {
   .about-tomato {
     position: relative;
@@ -362,6 +373,7 @@ p {
   box-sizing: border-box;
   text-decoration: none;
   font-size: 1.6rem;
+  margin-bottom: 200px;
 }
 .tomato-illustration{
   max-width: 400px;
@@ -583,13 +595,60 @@ p {
   margin-right: 20px;
   background-color: antiquewhite;
 }
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;   /* 横並び → 縦並び */
+    text-align: center;       /* 中央寄せ */
+  }
+  .left {
+    font-size: 30px;          /* 文字を少し小さく */
+    margin-bottom: 10px;
+  }
+  .right {
+    font-size: 20px;
+  }
+
+  .marugeri-ta, .fanchechaodang, .chiriconcan {
+    flex-direction: column;   /* 画像とテキストを縦に */
+    align-items: center;
+  }
+
+  .marugeri-ta img,
+  .fanchechaodang img,
+  .chiriconcan img {
+    width: 80%;               /* 横幅を縮小して収める */
+    margin: 10px auto;
+  }
+
+  .text-and-subimage {
+    align-items: center;      /* 中央寄せ */
+    max-width: 90%;           /* 横幅を広めに */
+  }
+
+  .text-and-subimage img {
+    width: 70%;               /* サブ画像も縮小 */
+    margin: 10px auto;
+  }
+
+  .marugeri-ta p,
+  .fanchechaodang p,
+  .chiriconcan p {
+    font-size: 16px;          /* 本文フォントサイズ調整 */
+    margin: 10px auto;
+  }
+
+  .ryo-ri1, .ryo-ri2, .ryo-ri3 {
+    font-size: 28px;          /* 見出し小さく */
+    text-align: center;
+  }
+}
 
 
 
 /* トマトクイズ */
   #quiz h1{
   text-align: center;
-  font-size: 30px;
+  /* font-size: 30px; */
 }
   /* 外枠 */
   .box{
@@ -901,7 +960,7 @@ border: 1px solid rgba(225,225,225,0.6);
 }
 
 #quiz h2{
-  font-size: 23px;
+  /* font-size: 23px; */
 }
 
 #quiz #explaination{
@@ -913,7 +972,7 @@ border: 1px solid rgba(225,225,225,0.6);
 /* トマト御籤 */
 #mikuji h1{
   text-align: center;
-  font-size: 30px;
+  /* font-size: 30px; */
 }
 
 #popup {
@@ -999,7 +1058,7 @@ border: 1px solid rgba(225,225,225,0.6);
 }
 
 #mikuji h2{
-  font-size: 25px;
+  /* font-size: 25px; */
 }
 
 #mikuji a{
@@ -1011,7 +1070,7 @@ border: 1px solid rgba(225,225,225,0.6);
 }
 
 #mikuji p{
-  font-size: 20px;  
+  /* font-size: 20px;   */
   text-align: center;
 }
 
