@@ -843,7 +843,6 @@ p {
 
 
 
-
 .recipe-slide{
  display: flex;
  align-items: center;
@@ -882,6 +881,25 @@ border: 1px solid rgba(225,225,225,0.6);
 
 .card-item p{
   margin-top: 3px;
+}
+
+.resipbutton{
+  display:flex;
+  width:200px;
+  height:55px;
+  background-color: #ffb6c1;
+ justify-content:center;
+ margin: 60px auto;
+ border-radius: 20px;
+}
+
+.resipbutton a{
+  display:block;
+  padding:15px 0;
+  color:#ffe4e1;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .card-item button{
@@ -957,6 +975,9 @@ border: 1px solid rgba(225,225,225,0.6);
  width: 350px;
  border-radius: 50%;
 }
+.box1 img:hover {
+   opacity: 0.5;
+}
 
 
 .box2{
@@ -972,6 +993,10 @@ border: 1px solid rgba(225,225,225,0.6);
  height: 350px;
  width: 350px;
   border-radius: 50%;
+}
+
+.box2 img:hover {
+   opacity: 0.5;
 }
 
 .button{
