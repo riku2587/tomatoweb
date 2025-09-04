@@ -478,16 +478,16 @@ p {
   /*background-color:antiquewhite;*/
   margin: 0;
 }
-.left {
+/*.left {
   font-size: 50px;
-}
+}*/
 .right {
   font-size: 30px;
 }
 .ryo-ri1 {
   font-family: "Kaisei Harunoumi";
   height: auto;
-  font-size: 40px;
+  /*font-size: 40px;*/
   margin-top: 30px;
   /*background-color: antiquewhite;*/
   margin: 0;
@@ -537,7 +537,7 @@ p {
 }
 .ryo-ri2, .ryo-ri3 {
   font-family: "Kaisei Harunoumi";
-  font-size: 40px;
+  /*font-size: 40px;*/
   margin-top: 30px;
   margin-bottom: 0;
   /*background-color: antiquewhite;*/
