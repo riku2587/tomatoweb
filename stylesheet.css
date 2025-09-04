@@ -1086,6 +1086,16 @@ border: 1px solid rgba(225,225,225,0.6);
   /* font-size: 20px;   */
   text-align: center;
 }
+.lucky {
+  color: red;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.luck {
+  color: rgb(194, 0, 0);
+  font-size: 1.5em;
+  font-weight: bold;
+}
 
 /* フッター */
 footer{
