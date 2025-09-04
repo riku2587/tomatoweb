@@ -778,6 +778,7 @@ p {
 
  .main_logo1 h1{
   margin-bottom: 140px;
+ 
 
  }
 
@@ -800,7 +801,7 @@ p {
 
 .main_logo2 h1{
   margin-bottom: 140px;
-  font-size: 40px;
+  
  }
 
 .main_logo3{
@@ -820,7 +821,7 @@ p {
 
  .main_logo3 h1{
   margin-bottom: 140px;
-  font-size: 40px;
+  
  }
 
 @keyframes fade {
