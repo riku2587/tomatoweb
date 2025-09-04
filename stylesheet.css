@@ -861,7 +861,7 @@ margin: 0 70px 55px;
 .card-list .card-item {
  background: rgba(225,225,225,0.2);
  /* width: 100px; */
- padding: 35px;
+ padding: 30px;
  border-radius: 8px;
  display: flex;
 flex-direction: column;
@@ -902,6 +902,9 @@ border: 1px solid rgba(225,225,225,0.6);
   text-decoration: none;
 }
 
+.resipbutton a:hover {
+   opacity: 0.5;
+}
 .card-item button{
  margin-top: 20px;
  padding: 10px;
