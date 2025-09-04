@@ -39,7 +39,7 @@ p {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgba(255, 158, 158, 0.5); 
+  background-color: rgb(255, 215, 215); 
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   margin: 0 auto;
   z-index: 1000;
@@ -61,7 +61,7 @@ p {
   }
 } 
 .linkButton{
-    width: 99px;
+    width: 70px;
     height: auto;
 }
 @media (max-width: 1228px) {
@@ -72,18 +72,6 @@ p {
   }
 }
 
-/* .hamburger{
-  display: none;
-  align-items: right;
-  width: 60px;
-  height: 60px;
-  margin-top: 30px;
-  background: rgba(255, 0, 0, 0.03);
-  color: #c00;
-  border: none;
-  z-index: 1006;
-  cursor: pointer;
-} */
  .menu-btn {
     position: fixed;
     top: 10px;
@@ -119,10 +107,12 @@ p {
 #menu-btn-check:checked ~ .menu-btn span::before {
     bottom: 0;
     transform: rotate(45deg);
+    background-color: black;
 }
 #menu-btn-check:checked ~ .menu-btn span::after {
     top: 0;
     transform: rotate(-45deg);
+    background-color: black;
 }
 #menu-btn-check {
     display: none;
@@ -131,12 +121,13 @@ p {
 
 
 .tomato_pageButton {
+  font-family:sans-serif;
+  font-weight: 1000;
   display: flex;
   justify-content: flex-end;
   gap: 77px;
-  font-weight: 500;
   font-size: clamp(14px, 2vw, 20px);
-  margin-top: 60px;
+  margin-top: 40px;
   margin-right: 60px;
   height: 50px;
 }
@@ -172,6 +163,8 @@ p {
 }
 
 .hamburger_pageButton{
+  font-family:sans-serif;
+  font-weight: 1000;
   display: flex;
   position: fixed;
   flex-direction: column;
