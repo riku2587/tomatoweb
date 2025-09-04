@@ -66,7 +66,7 @@ const swiper = new Swiper('.slider-wrapper', {
   const textArea = document.getElementById('textArea');
   const imageArea = document.getElementById('imageArea');
   const urlArea = document.getElementById('urlArea');
-  const texts = ["トマトとふわふわ卵のマヨソテー","簡単おいしい♪基本のミネストローネ","トマトときゅうりの中華風サラダ","大吉！<br>今夜はトマト祭りじゃ!!!","大凶！<br>お前は一人で生で食え"];
+  const texts = ["トマトとふわふわ卵のマヨソテー","簡単おいしい♪基本のミネストローネ","トマトときゅうりの中華風サラダ","<span class='lucky'>大吉！</span><br>今夜はトマト祭りじゃ!!!","<span class='luck'>大凶！</span><br>お前は一人で生で食え"];
   const urls = ['https://www.kewpie.co.jp/recipes/recipe/QP00010931/','https://delishkitchen.tv/recipes/377048994112602606','https://macaro-ni.jp/157315#heading-3408272','https://www.amazon.co.jp/dp/B096TL6XN7','https://www.amazon.co.jp/dp/B00WQNZPY0']
   const images = ['./tomato_dish1.jpg', './tomato_dish2.png', './tomato_dish3.png','./ChatGPT Image 2025年9月4日 15_51_51.png','./ChatGPT Image 2025年9月4日 16_17_14.png'];
   
