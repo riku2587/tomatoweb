@@ -175,7 +175,7 @@ p {
   display: flex;
   position: fixed;
   flex-direction: column;
-  row-gap: 90px;
+  row-gap: 40px;
   background-color: rgba(255, 255, 255);
   width: 40%;
   height: 100%;
@@ -212,7 +212,7 @@ p {
   padding-bottom: 8px;
   transition: color 0.3s ease;
   width: fit-content;
-  font-size: 30px;
+  font-size: 20px;
 }
 .hamburger_pageButton a::after {
   content: "";
